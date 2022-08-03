@@ -1,0 +1,95 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto Mono', monospace, serif;
+  color: #ffffff;
+  background-color: #343d46
+}
+
+h1, h2, h3 {
+  margin: 15px 0px
+}
+
+h2 {
+  font-weight: 100;
+  font-size: 20px;
+}
+
+img {
+  margin: 10px 0px;
+  border-radius: 10px;
+}
+
+p {
+  font-weight: 300;
+}
+
+a {
+  color: #343d46
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+li {
+  list-style-type: none;
+  width: 50%;
+  margin: auto;
+}
+
+.card {
+  background-color: #65737e;
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px 40px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px 15px rgba(255,255,255, 0.2);
+}
+
+
+.btn {
+  padding: 10px;
+  background-color: #a7adba;
+  color: #ffffff;
+  width: 150px;
+  border-radius: 5px;
+  margin: 10px auto;
+  box-shadow: 4px 4px 10px #343d46;
+}
+
+.btn:hover {
+  background-color: #ffffff;
+  color: #343d46;
+}
+
+.btn:active {
+  transform: translate(2px, 2px);
+  box-shadow: 0px 0px;
+}
+
+.list-inline i {
+  font-size: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+ul {
+  display: flex;
+  width: 200px;
+  margin: 0 auto;
+  margin-block-start: 0;
+  padding: 0;
+}
+
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 80%;
+  }
+}
